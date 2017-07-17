@@ -109,6 +109,12 @@ display: none;
 }
 }
 
+@media (max-width: 980px) {
+.map-container {
+display: none;
+}
+}
+
 
 .carousel-image {
     height: 500px;
@@ -140,6 +146,12 @@ display: none;
     background-size: cover;
 }
 
+.ues-image-5 {
+    background-image: url("../images/ues82.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 .pitch-section img{
   width:100%;
 }
@@ -148,12 +160,17 @@ display: none;
   font-weight: bold;
 }
 
+tbody {
+   display: inline-block;
+   vertical-align: middle;
+}
+
 .contact-heading {
   margin-bottom: 20px;
 }
 
 .page-bottom {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .contact {
@@ -169,4 +186,8 @@ display: none;
   background-position: inherit;
   color: #ffcc00;
   margin-bottom: 0;
+}
+
+.input-group {
+  width: 100%;
 }
