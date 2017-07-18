@@ -1,11 +1,17 @@
 body {
     /*background-color: #d1d1e0;*/
-    font-family: "Comic Sans MS", "Comic Sans", 'sans-serif';
+    font-family: "Arapey",'sans-serif';
+    font-size: 21px;
 }
 
+a:link {
+  text-decoration: none;
+}
 .navbar-default{
     background-color: #000000;
     margin-bottom: 0;
+    border:none;
+    width:100%;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -27,18 +33,24 @@ body {
 }
 
 .jumbotron {
-    background-image: url('../images/nyc-15.jpg');
+    background-image: url('../images/central-park.jpg');
     background-size: cover;
-    background-position: inherit;
+    background-position: center center;
     width: 100%;
     height: 600px;
     color: #ffcc00;
     margin-bottom: 0;
 }
 
+.jumbotron h1 {
+    font-weight: bold;
+}
+
 .jumbotron h2 {
     color: black;
+    font-size: 28px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .thumbnails {
@@ -47,7 +59,7 @@ body {
 
 .thumbnail {
   width: 100%;
-  border: none;
+  border: 1px solid #ffcc00 ;
 }
 
 .thumbnail img {
@@ -78,6 +90,10 @@ body {
 
 .btn-text {
   color: black;
+}
+
+.neighborhood-title {
+  font-weight: bold;
 }
 
 .map-container {
@@ -152,6 +168,75 @@ display: none;
     background-size: cover;
 }
 
+.village-image-1 {
+    background-image: url("../images/piano.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.village-image-2 {
+    background-image: url("../images/nyc-2.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.village-image-3 {
+    background-image: url("../images/nyu.JPG");
+    background-position: center;
+    background-size: cover;
+}
+
+.village-image-4 {
+    background-image: url("../images/villagetownhouse.jpg");
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.village-image-5 {
+    background-image: url("../images/wsp.JPG");
+    background-position: center;
+    background-size: cover;
+}
+
+.williamsburg-image-1 {
+    background-image: url("../images/graffiti.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.williamsburg-image-2 {
+    background-image: url("../images/nyc-14.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.williamsburg-image-3 {
+    background-image: url("../images/books.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.williamsburg-image-4 {
+    background-image: url("../images/beford-cheese.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.williamsburg-image-5 {
+    background-image: url("../images/williamsburg-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.page-header {
+  margin:20px;
+  border-bottom: 1.5px solid #ffcc00;
+}
+
+.todo-heading {
+  border:none;
+}
+
 .pitch-section img{
   width:100%;
 }
@@ -160,17 +245,12 @@ display: none;
   font-weight: bold;
 }
 
-tbody {
-   display: inline-block;
-   vertical-align: middle;
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+   border:none;
 }
 
 .contact-heading {
   margin-bottom: 20px;
-}
-
-.page-bottom {
-  margin-bottom: 30px;
 }
 
 .contact {
@@ -190,4 +270,8 @@ tbody {
 
 .input-group {
   width: 100%;
+}
+
+.page-bottom {
+  margin-bottom: 30px;
 }
