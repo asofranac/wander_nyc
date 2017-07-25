@@ -18,8 +18,18 @@ a:link {
      color: #ffffff;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+     color: #ffffff;
+     opacity: 0.75;
+}
+
 .navbar-default .navbar-brand {
     color: #ffcc00;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #ffcc00;
+    opacity: 0.75;
 }
 
 .glyphicon-apple {
@@ -30,6 +40,13 @@ a:link {
     background-color: #333333;
     color: white;
     border: none;
+}
+
+.btn-default:hover {
+    background-color: #333333;
+    color: white;
+    border: none;
+    opacity: 0.75;
 }
 
 .jumbotron {
@@ -79,6 +96,28 @@ a:link {
     border:none;
 }
 
+.btn:hover {
+    color: #ffcc00;
+    background-color: black;
+    border:none;
+    opacity: 0.9;
+}
+
+
+.btn:focus {
+    color: #ffcc00;
+    background-color: black;
+    border:none;
+    opacity: 0.9;
+}
+
+.btn:visited {
+    color: #ffcc00;
+    background-color: black;
+    border:none;
+}
+
+
 .tagline {
     margin: 120px;
 }
@@ -91,6 +130,13 @@ a:link {
 .btn-text {
   color: black;
 }
+
+.btn-info:hover {
+  opacity: 0.75;
+  background-color: white;
+  color: black;
+}
+
 
 .neighborhood-title {
   font-weight: bold;
