@@ -50,7 +50,7 @@ a:link {
 }
 
 .jumbotron {
-    background-image: url('../images/central-park.jpg');
+    background-image: url('../images/nyc-1.jpg');
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -222,7 +222,7 @@ display: none;
 }
 
 .village-image-2 {
-    background-image: url("../images/nyc-2.jpg");
+    background-image: url("../images/nyc-6.jpg");
     background-position: center center;
     background-size: cover;
 }

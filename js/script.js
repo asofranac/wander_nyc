@@ -47,3 +47,14 @@ $('#buttonSelectWilliamsburg').click(function(){
   $('#itemDrink').val(value)
 });
 
+// var randomImage = function (){
+//   var randomNumber = Math.floor(Math.random() * 3) + 1; 
+//   var imageName = "nyc-" + randomNumber + ".jpg"
+// };
+
+// $('#loadPhoto').load(function(){
+// });
+
+$(document).load(function(){
+  
+})
